@@ -55,7 +55,7 @@ export function SectionAbout({ data }: AboutProps) {
           <div className="relative overflow-hidden rounded-3xl border border-white/15 bg-gradient-to-br from-white/8 to-white/[0.02] p-4 shadow-card">
             {data?.heroImage && (
               <Image
-                src={buildImageUrl(data.heroImage).url()}
+                src={buildImageUrl(data.heroImage)?.url() || ""}
                 alt="Festival atmosphere"
                 width={640}
                 height={760}
