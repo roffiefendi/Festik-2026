@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://festival-teknik-2026.vercel.app/sitemap.xml
